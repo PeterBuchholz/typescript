@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.8.0](https://github.com/UI5/typescript/compare/@ui5/dts-generator@3.7.4...@ui5/dts-generator@3.8.0) (2025-08-08)
+
+### Features
+
+- **dts-generator:** add TypedJSONModel ([#516](https://github.com/UI5/typescript/issues/516)) ([0573f46](https://github.com/UI5/typescript/commit/0573f46f04e1856d80535b89b0a29df89dbec484))
+
 ## [3.7.4](https://github.com/SAP/ui5-typescript/compare/@ui5/dts-generator@3.7.2...@ui5/dts-generator@3.7.4) (2025-06-24)
 
 ### Bug Fixes
