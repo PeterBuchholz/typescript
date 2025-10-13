@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.9.0](https://github.com/UI5/typescript/compare/@ui5/dts-generator@3.8.1...@ui5/dts-generator@3.9.0) (2025-10-13)
+
+### Features
+
+- **dts-generator:** introduce new directive for modules with named exports ([#525](https://github.com/UI5/typescript/issues/525)) ([26e96b3](https://github.com/UI5/typescript/commit/26e96b3a1be30e9c55d9a28672d42dcf98f8b797))
+
 ## [3.8.1](https://github.com/UI5/typescript/compare/@ui5/dts-generator@3.8.0...@ui5/dts-generator@3.8.1) (2025-10-13)
 
 ### Bug Fixes

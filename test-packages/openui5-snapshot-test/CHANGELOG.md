@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.12](https://github.com/UI5/typescript/compare/@ui5/openui5-snapshot-test@3.2.11...@ui5/openui5-snapshot-test@3.2.12) (2025-10-13)
+
+**Note:** Version bump only for package @ui5/openui5-snapshot-test
+
+
+
+
+
 ## [3.2.11](https://github.com/UI5/typescript/compare/@ui5/openui5-snapshot-test@3.2.10...@ui5/openui5-snapshot-test@3.2.11) (2025-10-13)
 
 **Note:** Version bump only for package @ui5/openui5-snapshot-test
