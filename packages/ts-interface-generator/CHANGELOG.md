@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.5](https://github.com/UI5/typescript/compare/@ui5/ts-interface-generator@0.10.4...@ui5/ts-interface-generator@0.10.5) (2026-01-20)
+
+**Note:** Version bump only for package @ui5/ts-interface-generator
+
 ## [0.10.4](https://github.com/UI5/typescript/compare/@ui5/ts-interface-generator@0.10.3...@ui5/ts-interface-generator@0.10.4) (2025-10-15)
 
 **Note:** Version bump only for package @ui5/ts-interface-generator

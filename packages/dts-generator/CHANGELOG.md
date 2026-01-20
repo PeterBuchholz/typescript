@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.10.0](https://github.com/UI5/typescript/compare/@ui5/dts-generator@3.9.1...@ui5/dts-generator@3.10.0) (2026-01-20)
+
+### Features
+
+- **typed-json-model:** add getOriginalProperty declarations and tests to TypedJSONModel ([#534](https://github.com/UI5/typescript/issues/534)) ([ae4ba2e](https://github.com/UI5/typescript/commit/ae4ba2eec5359cee8d4153624c555a25876dd33e))
+
 ## [3.9.1](https://github.com/UI5/typescript/compare/@ui5/dts-generator@3.9.0...@ui5/dts-generator@3.9.1) (2025-10-15)
 
 **Note:** Version bump only for package @ui5/dts-generator
