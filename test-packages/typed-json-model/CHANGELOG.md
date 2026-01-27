@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/UI5/typescript/compare/@ui5/typed-json-model@1.2.0...@ui5/typed-json-model@1.2.1) (2026-01-26)
+
+### Reverts
+
+- **dts-generator:** revert add getOriginalProperty declarations and tests to TypedJSONModel ([#537](https://github.com/UI5/typescript/issues/537)) ([9b90b1b](https://github.com/UI5/typescript/commit/9b90b1bd83dc0669daac97c16a1750c1c333fe8f))
+
 # [1.2.0](https://github.com/UI5/typescript/compare/@ui5/typed-json-model@1.1.1...@ui5/typed-json-model@1.2.0) (2026-01-20)
 
 ### Features
