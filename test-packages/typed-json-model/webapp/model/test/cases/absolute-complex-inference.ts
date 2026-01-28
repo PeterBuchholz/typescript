@@ -10,6 +10,7 @@
  */
 
 import { JSONSafe, objectLikeByInference, Placeholder } from "../input";
+import JSONListBinding from "sap/ui/model/json/JSONListBinding";
 
 import { TypedJSONModel } from "../../model";
 
@@ -76,3 +77,16 @@ import { TypedJSONModel } from "../../model";
 
 /** @expect ts2740 */ const dataB: Array<any> = model.getData();
 /** @expect ts2345 */ model.setData(dataB);
+
+/***********************************************************************************************************************
+ * Check model.bindList
+ **********************************************************************************************************************/
+
+/** @expect ok     */ let ListBinding: JSONListBinding = model.bindList("/anArray");
+/** @expect ok     */ ListBinding = model.bindList("/anArrayOfArrays/0");
+/** @expect ok     */ ListBinding = model.bindList("/anObjectWithArray/anArray");
+
+/** @expect ts2345 */ ListBinding = model.bindList("/aJsonSafeArray/0");
+/** @expect ts2345 */ ListBinding = model.bindList("/anArrayOfArrays/0/0");
+/** @expect ts2345 */ ListBinding = model.bindList("/anObjectWithArray/anArray/0");
+/** @expect ts2345 */ ListBinding = model.bindList("/anArrayOfObjects/0");

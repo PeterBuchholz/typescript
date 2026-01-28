@@ -1,7 +1,10 @@
 import Context from "sap/ui/model/Context";
 import JSONModel from "sap/ui/model/json/JSONModel";
+import JSONListBinding from "sap/ui/model/json/JSONListBinding";
 import {
   AbsoluteBindingPath,
+  AbsoluteListBindingPath,
+  FromArrayWithSubPath,
   PropertyByAbsoluteBindingPath,
   PropertyByRelativeBindingPath,
   RelativeBindingPath,
@@ -55,6 +58,10 @@ export class TypedJSONModel<Data extends object> extends JSONModel {
     return super.getProperty(sPath, oContext) as
       | PropertyByAbsoluteBindingPath<Data, Path>
       | PropertyByRelativeBindingPath<Data, Root, Path>;
+  }
+
+  bindList<Path extends AbsoluteListBindingPath<Data>>(sPath: Path): JSONListBinding {
+    return super.bindList(sPath);
   }
 
   setData(oData: Data, bMerge?: boolean): void {

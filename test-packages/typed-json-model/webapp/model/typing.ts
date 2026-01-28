@@ -29,6 +29,19 @@ export type AbsoluteBindingPath<Type> =
         never;
 
 /**
+ * Valid absolute binding in a JSONModel with the underlying type `Type`.
+ * Counterpart to {@link PropertyByAbsoluteBindingPath}
+ * @example
+ * type Person = { name: string, id: number };
+ * type PathInPerson = PathInJSONModel<Person>; // "/name" | "/id"
+ * let path: PathInPerson = "/name"; // ok
+ * path = "/firstName"; // error
+ */
+export type AbsoluteListBindingPath<Type> = {
+  [Path in AbsoluteBindingPath<Type>]: PropertyByAbsoluteBindingPath<Type, Path> extends Array<any> ? Path : never;
+}[AbsoluteBindingPath<Type>];
+
+/**
  * Valid relative binding path in a JSONModel.
  * The root of the path is defined by the given root string.
  *
