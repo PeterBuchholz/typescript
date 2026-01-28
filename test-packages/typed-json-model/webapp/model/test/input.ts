@@ -58,9 +58,9 @@ export interface IPrimitives {
 export type TObjectLike = {
   anObject: object;
   anArray: Array<unknown>;
-  anArrayOfArrays: Array<Array<string>>;
+  anArrayOfArrays: Array<Array<unknown>>;
   aJsonSafeArray: Array<JSONSafe>;
-  anObjectWithArray: { anArray: Array<string> };
+  anObjectWithArray: { anArray: Array<unknown> };
   anArrayOfPlaceholders: Array<Placeholder>;
   aPlaceholder: Placeholder;
   aTuple: [string, number];
