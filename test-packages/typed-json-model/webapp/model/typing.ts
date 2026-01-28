@@ -38,7 +38,7 @@ export type AbsoluteBindingPath<Type> =
  * path = "/firstName"; // error
  */
 export type AbsoluteListBindingPath<Type> = {
-  [Path in AbsoluteBindingPath<Type>]: PropertyByAbsoluteBindingPath<Type, Path> extends Array<any> ? Path : never;
+  [Path in AbsoluteBindingPath<Type>]: PropertyByAbsoluteBindingPath<Type, Path> extends Array<unknown> ? Path : never;
 }[AbsoluteBindingPath<Type>];
 
 /**

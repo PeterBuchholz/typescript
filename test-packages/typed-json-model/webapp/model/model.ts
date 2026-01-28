@@ -4,7 +4,6 @@ import JSONListBinding from "sap/ui/model/json/JSONListBinding";
 import {
   AbsoluteBindingPath,
   AbsoluteListBindingPath,
-  FromArrayWithSubPath,
   PropertyByAbsoluteBindingPath,
   PropertyByRelativeBindingPath,
   RelativeBindingPath,
